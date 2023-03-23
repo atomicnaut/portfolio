@@ -1,0 +1,23 @@
+.tags {
+	padding-left: 0;
+}
+
+.tag {
+	--tag-color: var(--gray);
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	display: inline-block;
+	border: 2px solid var(--tag-color);
+	border-radius: 3px;
+	padding: 11px 16px;
+	margin: 8px;
+	margin-left: 0;
+}
+
+.tag:hover {
+	--tag-color: var(--primary);
+	color: var(--primary);
+	outline-color: var(--primary);
+}
